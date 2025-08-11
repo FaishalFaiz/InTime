@@ -129,6 +129,10 @@ form button:hover {
     gap: 1rem;
 }
 
+#completedList .item .inner h3{
+    text-decoration: line-through;
+}
+
 .checkButton {
     width: 30px;
     height: 30px;
