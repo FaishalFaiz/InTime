@@ -7,6 +7,74 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <h1>Ini Home Page</h1>
+    <nav>
+        <a href="/about.html">About</a>
+        <img src="assets/logo.svg" alt="Logo">
+        <a href="/about.html">Blog</a>
+    </nav>
+    <main>
+        <div class="wrapper">
+            <div class="container">
+                <h3 class="todoTitle">Input Your Todos</h3>
+                <form action="#" id="form">
+                    <div class="form-group">
+                        <label for="todoNameInput">Add Name</label>
+                        <input id="todoNameInput" type="text" placeholder="Enter todo name">
+                    </div>
+                    <div class="form-group">
+                        <label for="todoNameInput">Add Date</label>
+                        <input id="todoNameInput" type="date" placeholder="Enter todo date">
+                    </div>
+                    <button type="submit">Add Todo</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3 class="todoTitle">Todo List</h3>
+                <div class="itemList">
+                    <!-- Doll Data -->
+                    <div class="item">
+                        <div class="inner">
+                            <h3>Eat</h3>
+                            <p>2023-10-01</p>
+                        </div>
+                        <button class="checkButton">
+                    </div>
+                    <div class="item">
+
+                        <div class="inner">
+                            <h3>Competition</h3>
+                            <p>2023-10-01</p>
+                        </div>
+                        <button class="checkButton"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="todoTitle">Completed Todos</h3>
+                <div class="itemList">
+                    <!-- Doll Data -->
+                    <div class="item">
+                        <div class="inner">
+                            <h3>Website Project</h3>
+                            <p>01-02-2026</p>
+                        </div>
+                        <button class="undoButton"></button>
+                        <button class="removeButton"></button>
+                    </div>
+                    <div class="item">
+                        <div class="inner">
+                            <h3>Website Project</h3>
+                            <p>01-02-2026</p>
+                        </div>
+                        <button class="undoButton"></button>
+                        <button class="removeButton"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 CodeSprout. by Faishal & Kevin.</p>
+    </footer>
 </body>
 </html>
