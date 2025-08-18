@@ -189,5 +189,28 @@ form button:hover {
   align-items: center;
   border: 1px solid #333;
   border-radius: 10px;
-  padding: 3% 0;
+  padding: 5% 0;
+  margin-bottom: 15%;
+}
+
+.teamNameText {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.teamTitleText {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+@media (max-width: 600px ) {
+  .teamProfile{
+    padding: 10%;
+  }
+  .wrapper{
+    width: 80%;
+  }
+  nav{
+    gap: 2.5rem;
+  }
 }
