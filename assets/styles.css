@@ -203,14 +203,20 @@ form button:hover {
   font-size: 14px;
 }
 
+.activeNav {
+  font-weight: 600;
+  font-style: italic;
+  transition: all 0.3s;
+}
+
 @media (max-width: 600px ) {
   .teamProfile{
     padding: 10%;
   }
   .wrapper{
-    width: 80%;
+    width: 90%;
   }
   nav{
-    gap: 2.5rem;
+    gap: 3rem;
   }
 }
