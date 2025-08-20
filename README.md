@@ -75,5 +75,5 @@ Nobody knows — so let’s wait and see! 👀
 ---
 
 ## 🙏 Thanks  
-Made with ❤️ by  
+Made with ⌨️ by  
 **Faishal & Kevin**  
