@@ -30,6 +30,7 @@ function addTodo() {
     const todoObject = generateTodoObject(todoId, name, date, false);
     todos.push(todoObject);
     document.dispatchEvent(new Event(RENDER_EVENT));
+    saveData();
     console.log(todos);
 };
 
